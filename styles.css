@@ -62,7 +62,6 @@ img {
 li {
     cursor: pointer;
     padding: 0.75rem;
-    margin-left: 50px;
 }
 
 li:hover {
