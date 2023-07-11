@@ -1,0 +1,101 @@
+
+html {
+    font-size: 9px;
+}
+
+
+h2 {
+    color: #900603;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    /*background: linear-gradient(#9ddfff, #E8F9FD);*/
+    background: url(https://m.espacepourlavie.ca/sites/espacepourlavie.ca/files/meteor_bolide_0.jpg);
+    height: 100vh auto;
+    color: #b00b69;
+    font-size: 1.4rem;
+    margin: 2rem auto;
+    padding: 20rem;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.player {
+    background: url(https://i.pinimg.com/originals/80/9b/60/809b60a551a8c67902f2f15e199b2d41.jpg) no-repeat;
+    height: 100vh auto;
+    padding: 5rem;
+    border-radius: 2rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img {
+    margin-bottom: 40px;
+}
+
+#controls {
+    background: radial-gradient(#420c09, #0c0e22);
+    border: 5px #900603 solid;
+    border-radius: 10px;
+    padding: 1.6rem 1.6rem auto;
+    margin-left: 150px auto;
+    margin-right: 150px auto;
+}
+
+.controls_wrapper > span {
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 0.75rem;
+    margin-bottom: 100px;
+}
+
+#currentSong {
+    overflow: hidden;
+}
+
+#songLibrary {
+    overflow: hidden;
+    text-align: left;
+}
+
+li {
+    cursor: pointer;
+    padding: 0.75rem;
+    margin-left: 50px;
+}
+
+li:hover {
+    background: whitesmoke;
+}
+
+#progress {
+    width: 50%;
+    height: 0.75rem;
+    margin: 1.5rem 1.5rem;
+    text-align: center;
+}
+
+.pulse {
+    animation: pulse;
+    animation-duration: 0.4s;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@media(min-width: 800px) {
+    body {
+        max-width: 60vw;
+        font-size: 1.8rem;
+    }
+}
