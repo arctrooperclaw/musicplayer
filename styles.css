@@ -9,6 +9,10 @@ h2 {
     font-family:'Courier New', Courier, monospace;
 }
 
+#inscription {
+    color: #813ac0;
+}
+
 body {
     /*background: linear-gradient(#9ddfff, #E8F9FD);*/
     background: url(https://m.espacepourlavie.ca/sites/espacepourlavie.ca/files/meteor_bolide_0.jpg);
