@@ -102,11 +102,3 @@ li:hover {
         font-size: 1.8rem;
     }
 }
-
-@media (min-width: 300px) {
-    body {
-        display: auto;
-        margin: -75px;
-        padding: 1px;
-    }
-}
