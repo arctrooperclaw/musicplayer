@@ -105,8 +105,8 @@ li:hover {
 
 @media (min-width: 375px) {
     body {
-        display: flex;
-        margin: -70px;
+        display: block;
+        margin: -75px;
         padding: 1px;
         text-align: center;
         align-items: center;
