@@ -103,8 +103,8 @@ li:hover {
     }
 }
 
-@media (min-width: 375px) {
-    .player {
+@media (min-width: 300px) {
+    body {
         display: block;
         margin: -75px;
         padding: 1px;
