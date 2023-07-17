@@ -102,3 +102,14 @@ li:hover {
         font-size: 1.8rem;
     }
 }
+
+@media (min-width: 375px) {
+    body {
+        display: flex;
+        margin: -70px;
+        padding: 1px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
