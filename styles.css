@@ -108,8 +108,5 @@ li:hover {
         display: block;
         margin: -75px;
         padding: 1px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
     }
 }
